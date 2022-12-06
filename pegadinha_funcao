@@ -1,0 +1,60 @@
+//Rafaela, estudante de programação, quis fazer uma brincadeira com sua amiga Bruna. 
+Ela criou um programa que, ao ser aberto, exibe 9 alertas. 
+Isso fará com que sua amiga clique 1 vez em cada um deles e 
+fique entediada(9 vezes ao todo). 
+Cada alerta é uma mensagem brincando com ela. 
+Contudo, para fazer bonito, ela colocou as 9 instruções dentro de uma função
+ que chamou fazPegadinha
+
+ <meta charset="UTF-8">
+<script>
+    function fazPegadinha() {
+        alert("Olá");
+        alert("amiga!");
+        alert("Tá");
+        alert("bastante");
+        alert("entediada?");
+        alert("Em ficar");
+        alert("Clicando em");
+        alert("Ok");
+        alert("né?");
+    }
+</script>
+
+Rafaela, ansiosa para ver a reação de sua amiga Bruna, ao ver o programa aberto ficou surpresa. 
+Pois, nenhum dos nove alertas foi exibido na tela.
+
+Por que a armadilha de Rafaela não funcionou e como você consertaria o 
+código dela para que os 9 alertas fossem exibidos?
+
+Assinale a alternativa que corresponde ao programa que apresenta o comportamento esperado.
+
+
+O código com a pegadinha é:
+
+<meta charset="UTF-8">
+<script>
+    function fazPegadinha() {
+        alert("Olá");
+        alert("amiga!");
+        alert("Tá");
+        alert("bastante");
+        alert("entediada?");
+        alert("Em ficar");
+        alert("Clicando em");
+        alert("Ok");
+        alert("né?");
+    }
+
+    fazPegadinha();
+
+</script>
+
+
+Para que a função seja executada precisamos chamá-la! 
+Logo após a declaração da função, usamos seu nome fazPegadinha seguido de (). 
+Também utilizamos um ponto e vírgula ao final para indicar o fim da instrução. 
+Quando declaramos uma função, todas as instruções dentro dela ficam guardadas e 
+não são executadas. É como se uma função ficasse latente, esperando alguém chamá-la.
+
+
